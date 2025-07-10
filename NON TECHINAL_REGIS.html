@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INVENTUM NON  TECHNICAL REGISTRATION FORM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background:linear-gradient(to bottom,blue,white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #004080;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+            color: #003366;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            background-color: #004080;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>INVENTUM NON TECHNICAL EVENT REGISTRATION</h2>
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="department">Department</label>
+        <select id="department" name="department" required>
+            <option value="">-- Select Department --</option>
+            <option>CSE</option>
+            <option>CSM</option>
+            <option>CSD</option>
+            <option>IT</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>MECH</option>
+            <option>CHEM</option>
+            <option>CIVIL</option>
+        </select>
+
+        <label for="section">Section</label>
+        <select id="section" name="section" required>
+            <option value="">-- Select Section --</option>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+            <option>D</option>
+        </select>
+
+        <label for="year">Year</label>
+        <select id="year" name="year" required>
+            <option value="">-- Select Year --</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+
+        <label for="events">Event</label>
+        <select id="events" name="events" required>
+            <option value="">-- Select Event --</option>
+            <option>MEME MANIA</option>
+            <option>VEDIO MANIA</option>
+            <option>MUSIC AND ARTS MANIA</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
